@@ -1,0 +1,81 @@
+/* Style for the form */
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background: linear-gradient(to right, #607D8B, #78909C); /* Gradient background */
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  color: #fff; /* Text color for better contrast */
+}
+
+/* Style for input fields */
+form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: none;
+  background: linear-gradient(to right, #FF9800, #FFC107); /* Gradient color for the text box */
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: #fff; /* Text color for better contrast */
+}
+
+/* Style for error messages in spans */
+form span {
+  display: block;
+  color: #FF5252; /* Red color for error messages */
+  margin-bottom: 10px;
+}
+
+/* Style for the .app background */
+.App {
+  background: linear-gradient(to right, #607D8B, #78909C); /* Gradient background for .app */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  color: #fff; /* Text color for better contrast */
+}
+
+/* Style for the submit button */
+form button {
+  background-color: #2196F3; /* Blue color for the button */
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Hover effect for the submit button */
+form button:hover {
+  background-color: #1565C0; /* Adjusted color on hover */
+}
+/* Style for the header */
+.header {
+  background-color: #263238; /* Dark background color for the header */
+  color: #fff; /* Text color for the header */
+  padding: 10px; /* Padding for the header */
+  text-align: center; /* Center-align text in the header */
+  border-bottom: 2px solid #546E7A; /* Border at the bottom of the header */
+}
+
+/* Style for the header h1 element */
+.header h2 {
+  margin: 0; /* Remove default margin for h1 element */
+}
+
+/* Additional styling for the page content */
+.page-content {
+  padding: 20px; /* Add padding to the page content */
+  color: #333; /* Default text color for the page content */
+}
+.bottomheader {
+  margin-top: 20px;
+  padding: 15px;
+  background: linear-gradient(to right, #607D8B, #78909C);
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  text-align: center;
+  color: #333;
+}
